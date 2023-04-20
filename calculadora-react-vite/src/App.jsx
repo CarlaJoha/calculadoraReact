@@ -13,10 +13,14 @@ function App() {
   const addInput = (valor) => {
     setInput(input + valor);
   }
-
   const result = () => {
-  setInput(evaluate(input));
-  }
+    if(input){
+      setInput(evaluate(input));
+    } else {
+      alert("Se necesita valores para realizar cálculo")
+    }
+}
+
   return (
     <div className="App">
       <div className="logo-contenedor">
