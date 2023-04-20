@@ -14,12 +14,12 @@ function App() {
     setInput(input + valor);
   }
   const result = () => {
-    if(input){
-      setInput(evaluate(input));
-    } else {
+    if(!input){
       alert("Se necesita valores para realizar cálculo")
+    } else {
+      setInput(evaluate(input));
     }
-}
+  };
 
   return (
     <div className="App">
