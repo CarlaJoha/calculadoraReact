@@ -4,7 +4,7 @@ import "./Boton.css"
 const Boton = (props) => {
 
     const esOperador = (valor) => {
-        return isNaN(valor) && (valor != ".") && (valor != "=");
+        return isNaN(valor) && (valor !== ".") && (valor != "=");
     };
 
     return(
