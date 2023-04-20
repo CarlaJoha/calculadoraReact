@@ -37,9 +37,17 @@ h1{
 }
 .contenedor-calculadora {
   width: 400px;
-  height: 80vh;
+  height: 100vh;
   padding: 14px;
-  background-color: rgba(212, 133, 14, 0.692);
-  border-radius: 30px;
-  border: 5px solid #f3b919;
+  background-color: rgba(222, 227, 231, 0.692);
+  border-radius: 20px;
+  border: 5px solid #568fda;
+  display: flex;
+  flex-direction: column;
+}
+.fila{
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

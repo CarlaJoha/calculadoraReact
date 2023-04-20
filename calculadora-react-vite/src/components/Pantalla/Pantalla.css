@@ -1,0 +1,16 @@
+.input{
+    height: 400px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Electrolize', sans-serif;
+    color: white;
+    padding: 11px 30px 11px 11px;
+    border: 3px solid #568fda;
+    box-shadow: -1px 4px 1px 1px #3f69a0d3; 
+    background-color: black;
+}
