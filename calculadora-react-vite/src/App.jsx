@@ -15,6 +15,7 @@ function App() {
   }
   const result = () => {
     if(!input){
+      setInput("")
       alert("Se necesita valores para realizar cálculo")
     } else {
       setInput(evaluate(input));
