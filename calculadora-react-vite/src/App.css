@@ -12,6 +12,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  
 }
 
 .logo-contenedor{
@@ -29,15 +30,17 @@
 
 h1{
   display: flex;
+  flex-direction: column;
+ margin-top: 40px;
   height: 18vh;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  font-size: 1.2em;
+  font-size: 100px;
 }
 .contenedor-calculadora {
   width: 400px;
-  height: 100vh;
+  height: 630px;
   padding: 14px;
   background-color: rgba(222, 227, 231, 0.692);
   border-radius: 20px;

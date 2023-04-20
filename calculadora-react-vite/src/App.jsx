@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "./assets/logo5.png";
+import logo from "./assets/logo2.png";
 import "./App.css";
 import Boton from "./components/Boton/Boton"
 import Pantalla from "./components/Pantalla/Pantalla";
@@ -47,7 +47,7 @@ function App() {
         <Boton handleInput={addInput} >7</Boton>
         <Boton handleInput={addInput} >8</Boton>
         <Boton handleInput={addInput} >9</Boton>
-        <Boton>*</Boton>
+        <Boton handleInput={addInput} >*</Boton>
         </div>
         <div className="fila" >
         <Boton handleInput={result} >=</Boton>
